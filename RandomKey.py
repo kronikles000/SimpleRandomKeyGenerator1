@@ -2,6 +2,9 @@ import random
 
 characters = ('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890')
 
+#Beware this code may not be secure but you can build upon it.
+#https://github.com/kronikles000
+
 def space():
     print('')
 
