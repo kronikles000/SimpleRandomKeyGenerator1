@@ -9,9 +9,7 @@ keylength = 20 #20 by default, set it to whatever
 
 #print(RandomKeyApiCode)
 namespace = {'keylength': keylength}
-
 exec(RandomKeyApiCode, namespace)
-
 createdkey = namespace['createdkey']
 
 print(f'{createdkey}')
