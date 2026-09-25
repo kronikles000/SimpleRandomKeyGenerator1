@@ -6,8 +6,6 @@ characters = ('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890')
 #code by kronikles000 on Github use the code as you wish you can remove this note
 
 
-createdkey = '[Error, nothing here yet]'
-
 def createkey(amount):
     made = 0
     global createdkey
@@ -17,7 +15,6 @@ def createkey(amount):
         createdkey = (f'{createdkey}{ranchar}')
         made = made + 1
 
-while True:
-    global keylength
-    createkey(keylength)
+
+createkey(keylength)
 
