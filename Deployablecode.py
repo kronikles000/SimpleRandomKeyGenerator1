@@ -8,6 +8,6 @@ createdkey = '0'
 keylength = 20 #20 by default, set it to whatever
 
 #print(RandomKeyApiCode)
-exec(RandomKeyApiCode)
+exec(RandomKeyApiCode, {'keylength': keylength})
 print(f'{createdkey}')
 print('1')
