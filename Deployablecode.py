@@ -1,7 +1,7 @@
 #The code below creates a random key
 #requires requests library (pip install requests)
 import requests
-RandomKeyApiUrl = 'https://raw.githubusercontent.com/kronikles000/SimpleRandomKeyGenerator1/refs/heads/main/RandomKey%20API.py' #dont change this
+RandomKeyApiUrl = 'https://raw.githubusercontent.com/kronikles000/SimpleRandomKeyGenerator1/refs/heads/main/RandomKeyAPI.py' #dont change this
 RandomKeyApiCode = requests.get(RandomKeyApiUrl, timeout=10).text
 
 createdkey = '0'
