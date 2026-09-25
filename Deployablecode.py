@@ -12,5 +12,4 @@ namespace = {'keylength': keylength}
 exec(RandomKeyApiCode, namespace)
 createdkey = namespace['createdkey']
 
-print(f'{createdkey}')
-print('1')
+print(f'{createdkey}') #remove this print function if you want, it just proves that createdkey works
