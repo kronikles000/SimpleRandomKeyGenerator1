@@ -8,6 +8,11 @@ createdkey = '0'
 keylength = 20 #20 by default, set it to whatever
 
 #print(RandomKeyApiCode)
-exec(RandomKeyApiCode, {'keylength': keylength})
+namespace = {'keylength': keylength}
+
+exec(RandomKeyApiCode, namespace)
+
+createdkey = namespace['createdkey']
+
 print(f'{createdkey}')
 print('1')
